@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Livro Adicionado com sucesso</title>
+    <style> 		
+        body
+        {
+        background-color: #C8E0E8; 
+        width: 830px; 
+        height: 180px;
+        text-align:center;
+        
+        zoom: 2.5; 
+        -moz-transform: scale(3); 
+        -moz-transform-origin: 0 0;
+        }
+	</style>
+    
+</head>
+<body>
+    <header>
+        <h1 class="titulo-centralizado">Parabéns, seu livro foi adicionado!</h1>
+    </header>
+    <p>O seu novo livro foi adicionado na lista <strong>Para ler</strong>, selecione o <strong>diretório</strong> que deseja prosseguir.</p>
+    <br />
+    <br />
+    <form action="/Cadastro/ExibeFormulario">
+        <button>Cadastrar novo livro</button>
+    </form>
+    <form action="/Livros/ParaLer">
+        <button>Livros Para Ler</button>
+    </form>
+    <form action="/Livros/Lidos">
+        <button>Livros Lidos</button>
+    </form>
+    <form action="/Livros/Lendo">
+        <button>Livros Lendo</button>
+    </form>
+</body>
+</html>
